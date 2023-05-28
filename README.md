@@ -15,12 +15,11 @@ python ocr_script.py <directorio> <archivo_salida> --lang <idioma> --rotation <r
   
 Solo reemplazá:
 
-<directorio> por el directorio donde tenés tus imágenes.
-<archivo_salida> por el nombre del archivo donde querés guardar el texto.
-<idioma> por el idioma del texto en tus imágenes (por defecto es 'spa').
-<rotación> por el ángulo de rotación de tus imágenes (por defecto es 0).
-¡Y ya está, ché! 🎉 Ahora podés disfrutar de tu texto sin imágenes.
+- <directorio> por el directorio donde tenés tus imágenes.
+- <archivo_salida> por el nombre del archivo donde querés guardar el texto.
+- <idioma> por el idioma del texto en tus imágenes (por defecto es 'spa').
+- <rotación> por el ángulo de rotación de tus imágenes (por defecto es 0).
 
-  ¡Y ya está, ché! 🎉 Ahora podés disfrutar de tu texto sin imágenes.
+¡Y ya está, ché! 🎉 Ahora podés disfrutar de tu texto sin imágenes.
 
 Asegurate de que el camino a tesseract.exe esté bien configurado en el script. El script y estas instrucciones suponen que estás en Windows y que Tesseract está instalado en la carpeta Program Files. Eso puede cambiar si estás usando otro sistema operativo.
