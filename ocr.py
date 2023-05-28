@@ -14,12 +14,10 @@ def ocr_directory(directory, output_file, language, rotation):
                     f.write(text + '\n')
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="OCR all PNG files in a directory")
-    parser.add_argument('directory', help="Directory to scan for png files")
-    parser.add_argument('output_file', help="File to output the OCR'd text")
-    parser.add_argument('--lang', default='spa', help="Language for Tesseract OCR")
-    parser.add_argument('--rotation', type=float, default=0, help="Rotation angle for the images")
 
-    args = parser.parse_args()
+    directory = 'output'
+    output_file = 'output.txt'
+    language = 'spa'
+    rotation = 0
 
-    ocr_directory(args.directory, args.output_file, args.lang, args.rotation)
+    ocr_directory(directory, output_file, language, rotation)
