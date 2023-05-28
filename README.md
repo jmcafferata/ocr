@@ -12,13 +12,14 @@ Es más fácil que hacer un asado. Primero necesitás tener Tesseract en tu comp
 - Ahora, abrí tu terminal y escribí lo siguiente:
 
 python ocr_script.py <directorio> <archivo_salida> --lang <idioma> --rotation <rotación>
-
+  
 Solo reemplazá:
 
 <directorio> por el directorio donde tenés tus imágenes.
 <archivo_salida> por el nombre del archivo donde querés guardar el texto.
 <idioma> por el idioma del texto en tus imágenes (por defecto es 'spa').
 <rotación> por el ángulo de rotación de tus imágenes (por defecto es 0).
+¡Y ya está, ché! 🎉 Ahora podés disfrutar de tu texto sin imágenes.
 
   ¡Y ya está, ché! 🎉 Ahora podés disfrutar de tu texto sin imágenes.
 
